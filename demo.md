@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Demo luận văn tốt nghiệp
+subtitle: Trang web giúp người đọc có một cái nhìn chung về luận văn tốt nghiệp của nhóm
 ---
 
 My name is Inigo Montoya. I have the following qualities:
