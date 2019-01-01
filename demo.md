@@ -17,26 +17,16 @@ tags: [test]
 comments: true
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Hình ảnh đầu vào cho mô hình
 
-**Here is some bold text**
+![Crepe](/img/um_000007.png)
 
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
+Hình ảnh đầu ra tương ứng  
 
 ![Crepe](/img/um_000007_out.png)
-![Crepe](/img/um_000007.png)
+
+{: .box-note}
+**Note:** Hộp bao đóng được tô màu xanh dương quanh đối tượng được xác nhận, phía trên chữ vàng sẽ là tên đối tượng được đánh nhãn và độ chính xác của nó. Dòng chữ đỏ phía dưới sẽ là dự đoán khoảng cách của đối tượng này tới camera. Phần đường trên hình sẽ được phân đoạn và tô màu xanh lá cây (Hình ảnh được lấy trong bộ kiểm thử của tập dữ liệu KITTI).
 
 Here's a code chunk:
 
