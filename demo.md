@@ -1,18 +1,84 @@
 ---
 layout: page
-title: Demo
+title: Luận văn tốt nghiệp
 subtitle: Phát hiện xe và phân đoạn đường trong ảnh sử dụng Deep Learning
 ---
 
 ### Trang web giúp người đọc có một cái nhìn chung về luận văn tốt nghiệp của nhóm
 
-My name is Inigo Montoya. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+---
+layout: post
+title: Test markdown
+subtitle: Each post also has a subtitle
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [test]
+comments: true
+---
 
-What else do you need?
+You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
-### my history
+**Here is some bold text**
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+## Here is a secondary heading
+
+Here's a useless table:
+
+| Number | Next number | Previous number |
+| :------ |:--- | :--- |
+| Five | Six | Four |
+| Ten | Eleven | Nine |
+| Seven | Eight | Six |
+| Two | Three | One |
+
+
+How about a yummy crepe?
+
+![Crepe](/img/um_000007_out.png)
+![Crepe](/img/um_000007.png)
+
+Here's a code chunk:
+
+~~~
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+~~~
+
+And here is the same code with syntax highlighting:
+
+```javascript
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+```
+
+And here is the same code yet again but with line numbers:
+
+{% highlight javascript linenos %}
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+{% endhighlight %}
+
+## Boxes
+You can add notification, warning and error boxes like this:
+
+### Notification
+
+{: .box-note}
+**Note:** This is a notification box.
+
+### Warning
+
+{: .box-warning}
+**Warning:** This is a warning box.
+
+### Error
+
+{: .box-error}
+**Error:** This is an error box.
