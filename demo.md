@@ -20,22 +20,18 @@ Hình ảnh đầu ra tương ứng
 <button name="button" onclick="http://www.google.com">Click me</button>
 [Click me](http://www.google.com){: .btn}
 
-Here's a code chunk:
+Script sử dụng để train model và kiểm thử hình trên tập dữ liệu
 
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+Lệnh để thực hiện train model với các thông số như weights, hàm loss, batch_size, max_steps, ...:
 
-And here is the same code with syntax highlighting:
+```
+python train.py --hypes hypes/multinet.json
+```
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+Script sử dụng để kiểm thử:
+
+```
+./run_demo.sh `path_to_input` `path_to_output`
 ```
 
 And here is the same code yet again but with line numbers:
@@ -50,17 +46,3 @@ foo(3)
 ## Boxes
 You can add notification, warning and error boxes like this:
 
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
