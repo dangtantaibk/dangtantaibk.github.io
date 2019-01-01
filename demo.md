@@ -19,7 +19,7 @@ Hình ảnh đầu ra tương ứng
 
 
 Đồng thời, một file json sẽ lưu đầy đủ các thông tin phát hiện được này để có thể dem đi sử dụng ở các ứng dụng khác:
-{% highlight javascript linenos %}
+{% highlight linenos %}
 2019-01-01 09:09:40,109 INFO 2 Cars detected
 2019-01-01 09:09:40,286 INFO 
 2019-01-01 09:09:40,286 INFO Coordinates of Box 0
