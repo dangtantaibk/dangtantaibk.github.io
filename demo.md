@@ -52,14 +52,19 @@ Script sử dụng để kiểm thử trên tập dữ liệu KITTI:
 ./run_demo.sh `path_to_input` `path_to_output`
 ```
 
-
-```{r echo=FALSE}
-knitr::read_chunk('external.R')
-```
-
-```{r}
-<<answer>>
-```
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+<br><br>
+<pre>
+&lt;details&gt;
+&lt;summary&gt;How do I dropdown?&lt;/summary&gt;
+&lt;br&gt;
+This is how you dropdown.
+&lt;details&gt;
+</pre>
+</details>
 
 {: .box-note}
 **Chú ý:** Mô hình được train và các trọng số được lưu lại trên server được thuê từ google cloud nên chỉ demo được khi nhóm start server này. Vì vậy, việc muốn thực hiện được demo phải liên hệ với nhóm.
