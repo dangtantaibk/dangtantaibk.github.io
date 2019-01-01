@@ -17,8 +17,6 @@ Hình ảnh đầu ra tương ứng
 {: .box-note}
 **Chú ý:** Hộp bao đóng được tô màu xanh dương quanh đối tượng được xác nhận, phía trên chữ vàng sẽ là tên đối tượng được đánh nhãn và độ chính xác của nó. Dòng chữ đỏ phía dưới sẽ là dự đoán khoảng cách của đối tượng này tới camera. Phần đường trên hình sẽ được phân đoạn và tô màu xanh lá cây (Hình ảnh được lấy trong bộ kiểm thử của tập dữ liệu KITTI).
 
-{% include button.html url="http://www.google.com" %}
-[button url="http://www.google.com"]
 <button name="button" onclick="http://www.google.com">Click me</button>
 [Click me](http://www.google.com){: .btn}
 
