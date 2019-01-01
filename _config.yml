@@ -23,8 +23,8 @@ description: Trang web giúp người đọc có một cái nhìn chung về lu�
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Author's home: "https://www.linkedin.com/in/t%C3%A0i-%C4%91%E1%BA%B7ng-871a5210a/"
+  #About Me: "aboutme"
+  #Author's home: "https://www.linkedin.com/in/t%C3%A0i-%C4%91%E1%BA%B7ng-871a5210a/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar

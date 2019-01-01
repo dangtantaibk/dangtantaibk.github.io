@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Demo luận văn tốt nghiệp
-subtitle: Trang web giúp người đọc có một cái nhìn chung về luận văn tốt nghiệp của nhóm
+title: Demo
+subtitle: Phát hiện xe và phân đoạn đường trong ảnh sử dụng Deep Learning
 ---
+
+### Trang web giúp người đọc có một cái nhìn chung về luận văn tốt nghiệp của nhóm
 
 My name is Inigo Montoya. I have the following qualities:
 
